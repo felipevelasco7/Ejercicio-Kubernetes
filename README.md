@@ -1,4 +1,6 @@
 # Ejercicio-Kubernetes
+##Felipe Velasco
+
 Crear 4 deployments, cada uno con una imagen diferente, con 4 servicios diferentes (clusterIp con nginx, loadbalancer, nodeport, ingress)
 
 Comandos para crear los deployments:
