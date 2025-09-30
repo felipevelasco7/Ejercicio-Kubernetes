@@ -46,7 +46,7 @@ y aplicarlo con:
 ```bash
 kubectl apply -f ingress.yaml
 ```
-
+![Creacion de los deployments](foto1.png)
 
 Para Verificar:
 Ver deployments:
@@ -65,9 +65,13 @@ Ver ingress:
 ```bash
 kubectl get ingress
 ```
+![Verificacion de los deployments](foto2.png)
 
 Para acceder a la página de Nginx desde fuera del clúster, se usa port-forward:
 ```bash
 kubectl port-forward service/app1 8080:80
 ```
 y se abre desde el localhost:8080
+
+![Nginx](foto3.png)
+
